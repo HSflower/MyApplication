@@ -8,9 +8,10 @@
 기본
 -----
 
-영어(Reading >>> Writing > Listening > Speaking)와 자료구조를 공부.
-더 시간이 있으면, 알고리즘, 운영체제, 컴파일러, 네트워크, 데이터베이스, 프로그래밍 언어론, 컴퓨터구조론, 개발방법론
-Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 없습니다. 한 언어에만 매달리다보면 "프로그램은 이렇게 만드는 것"이라는 고정관념이 틀에 박히는데 단순히 이걸 깨는 것)
+- 영어(Reading >>> Writing > Listening > Speaking)와 자료구조를 공부.
+- 더 시간이 있으면, 알고리즘, 운영체제, 컴파일러, 네트워크, 데이터베이스, 프로그래밍 언어론, 컴퓨터구조론, 개발방법론
+- Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 없습니다. 한 언어에만 매달리다보면 "프로그램은 이렇게 만드는 것"이라는 고정관념이 틀에 박히는데 단순히 이걸 깨는 것)
+
 출처 | <https://kldp.org/node/121690>
 
 > " 깊이 있는 개발자가 되려면 논리력, 분석력, 비판적 사고 역량이 매우 매우 중요합니다. 이 요소들이 개발자 역량 그릇의 크기를 결정하는 제일 중요한 요소들이고요.
@@ -45,20 +46,25 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
  - 대용량설계도 공부
  
 1.2. 분야선택(front-back)
+
 1.3. 핵심언어공부(js-java,php,ruby,node,py)
+
 1.4. 전체언어공부(HTML,CSS,js-servlet,MVC,DB,API)
+
 1.5. 관계이해(ajax,HTTP)
 
 ### 제일 먼저 해볼만한 것: 
 
 (1) 1시간 정도 투자해서 code.org 의 hour of code로 놀아 봅시다. 중요한 기초 개념인 순차 + 반복 + 조건문의 개념을 배우시기 바랍니다.
 <http://code.org/learn>
+
 (2) 칸 아카데미의 컴퓨터 교육: 자바스크립트의 감을 잡게 해 줍니다. 
 <https://www.khanacademy.org/computing/computer-programming>
+
 (옵션): 파이썬 공부하기: 파이썬은 재밌는 언어입니다. 한번쯤 취미로 배워볼만 하지요.
-왕초보 파이썬: https://wikidocs.net/book/2 
-파이썬 포 키드: http://nostarch.com/download/PythonForKidsSolutions.pdf 
-THINK PYTHON: http://www.flowdas.com/thinkpython/ 
+- 왕초보 파이썬: https://wikidocs.net/book/2 
+- 파이썬 포 키드: http://nostarch.com/download/PythonForKidsSolutions.pdf 
+- THINK PYTHON: http://www.flowdas.com/thinkpython/ 
 
 ### 조금 더 깊게
 
@@ -102,9 +108,10 @@ merge 를 해결하는 방법: 3-way merge
 - virtual machine의 동작 원리, 가비지 콜렉션의 원리, bytecode의 이해
 - 성능 프로파일링
 
-기초 html -> css -> javascript -> server-side(php,jsp,asp등) 및 RDBMS(oracle, mysql 등)
-	jsp+jQuery+spring+ibatis+mysql+JSTL
-기초를 뗀뒤 각종 프레임워크
+##### 기초
+- html -> css -> javascript -> server-side(php,jsp,asp등) 및 RDBMS(oracle, mysql 등)
+- jsp+jQuery+spring+ibatis+mysql+JSTL
+##### 기초를 뗀뒤 각종 프레임워크
 - javascript : 제이쿼리
 - java : spring, ibatis <--  우리나라에서는 가장 많이 쓰입니다. 기타 hibernate, 전자정부표준프레임워크(spring 및 maven기반)
 - php : codeigniter  <-- 우리나라에서  많이쓰는 프레임웤, 기타 YII 등
@@ -121,6 +128,7 @@ merge 를 해결하는 방법: 3-way merge
 “Do you know why java devepers wear glasses? Because they can’t see #.”
 그리고 groovy가 우리나라에서는 잘 사용되지 않지만 역시 한번쯤 공부해 볼 만합니다.
 프론트 개발자들은 rust를 배우고 firefox와 함께 놀아 봅시다. 새로운 세상이 여러분에게 열릴 것 같습니다. 
+
 출처 | <https://docs.google.com/document/d/16RXSJzG6mK02yiXW8ey9wWyylSSEZ3JBcmc9Lb4s64Q/edit>
 
 ####### 참고( 생활코딩 출처: https://opentutorials.org/course/1)

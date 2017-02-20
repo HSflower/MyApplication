@@ -33,7 +33,8 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 - 처음에는 프론트와 백엔드 모두를 배워야 한다: 백엔드 개발자는 자바, 프론트 엔드 개발자는 javascript + html + css 가 핵심 역량이 됩니다. 그러나 처음에는 둘 모두 알아야 합니다. 꼭 두 분야의 기초 정도는 함께 공부하기를 권합니다.
 
 - 반복이 매우 중요하기 때문에 아는 거 또 나왔네? 라고 넘어가지 말고 반복해서 학습을 하길 권합니다. 
-1. 웹전체이해 : 백언어+프론트언어+db+서버(윈,리눅스)+보안
+
+1.1. 웹전체이해 : 백언어+프론트언어+db+서버(윈,리눅스)+보안
  -http://xguru.net/1897 주변기능실습
  - 윈도우서버:IIS+SMTP, ASP,PHP
  - DB: 리눅스,PHP,MySQL,
@@ -41,10 +42,10 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 	JSP는 무관
  - 보안: top10은 처리해야함
  - 대용량설계도 공부
-2. 분야선택(front-back
-3. 핵심언어공부(js-java,php,ruby,node,py)
-4. 전체언어공부(HTML,CSS,js-servlet,MVC,DB,API)
-5. 관계이해(ajax,HTTP)
+1.2. 분야선택(front-back
+1.3. 핵심언어공부(js-java,php,ruby,node,py)
+1.4. 전체언어공부(HTML,CSS,js-servlet,MVC,DB,API)
+1.5. 관계이해(ajax,HTTP)
 
 2. 제일 먼저 해볼만한 것: 
 
@@ -63,26 +64,35 @@ THINK PYTHON: http://www.flowdas.com/thinkpython/
  에자일 방법론과 스크럼(도구 : trello)에 대한 좋은 책들을 한 번 읽어 보시기 바랍니다. 
  
 (1) 유닉스 콘솔 명령어 (bash) 배우기
+
 (2) git 의 원리와 사용법 : git을 왜 사용하는지, 그리고  간단한 사용법
 필수 명령: clone, init. log, status, add, commit, push, pull, branch, checkout,  fetch, merge rebase, stash (pop)
 merge 를 해결하는 방법: 3-way merge
 유용한 도구들: sourceTree, kdiff3 
 참고 링크1: https://github.com/honux77/practice/wiki/learngit
 이고잉님 git 강의: http://opentutorials.org/course/1492  
+
 (3) github 배우기 : markdown, 이슈 등록, fork와 pull request, 다른 프로젝트 검색, 별 주기, static 웹 페이지 만들기 
+
 (4) 백엔드:  자바 기초 배우기 
 	객체 지향 프로그래밍, 파일 IO, 멀티 스레드의 개념을 꼭 배우시길 바랍니다.
 	단위 테스트를 꼭 잘 배우시구요. 로그 라이브러리 사용법도 알아야 합니다. 
 	자료 구조 중 list, map의 용도와 사용법, 그리고 하위 클래스들의 사용법은 필수입니다. 
 	가능하다면 TDD를 해 보시고, 좋은지 나쁜지는 스스로 판단하시기 바랍니다. 
 	이클립스(혹은 inteliJ)와 같은 IDE 사용법, 그리고 maven의 기초에 대해서도 배워야 합니다. 
+
 (5) 프론트엔드:: javascript, html, css : box model의 이해, 프론트 엔드 개발 도구들, 기타 등등…
+
 (6) 데이터베이스 기초: 관계형 데이터베이스, nosql(mongdb), 웹 서버와 데이터베이스의 연동 
+
 (7) VirtualBox와 aws를 이용한 내 서버 마련하기 
-(7) 네트워크의 기초: tcp/ip, 소켓의원리, http의 구조, 웹 서버와 웹 브라우저의 동작 원리 
-(8) REST API: 웹 페이지와 웹 서비스와의 차이점, REST API란? 
+
+(8) 네트워크의 기초: tcp/ip, 소켓의원리, http의 구조, 웹 서버와 웹 브라우저의 동작 원리 
+
+(9) REST API: 웹 페이지와 웹 서비스와의 차이점, REST API란? 
 
 4. 웹 개발자 초보 탈출! 하고 나서 여러분들에게 도움이 될 만한 것들은
+
 - 디자인 패턴 (head first desgin pattern이 좋다고 합니다.)
 - effective Java 읽어 보기
 - 다른 소스 많이 읽고 많이 짜 보기 (개인적으로 이희승님의 netty를 공부하는 걸  추천합니다.) 
@@ -153,15 +163,15 @@ merge 를 해결하는 방법: 3-way merge
 > 추천도서
 >> 찰스 펫졸드 CODE 책 : 컴퓨터가 무엇인지 알 수 있는 좋은 책입니다. 
 >>> (기초서적)
-html & css - head first 시리즈 \n
-javascript -  다이나믹 웹 표준 사이트를 위한 DOM 스크립트, 자바스크립트 완벽가이드(기초서적은 아닙니다만 하지만 이책은 정말 강추입니다) \n
-제이쿼리 - 제이쿼리 in action
-java - head first 시리즈, 뇌를자극하는 java
-jsp & servlet - head first 시리즈
-sql - 하루 10분씩 핵심만 골라 마스터하는 sql 핸드북, head first 시리즈
-oracle - 뇌를자극하는 오라클
-php & mysql - 성공적인 웹 프로그래밍 php와 mysql
-spring - 토비의 스프링3.0 (기초서적은 아닙니다만 spring 프레임웤을 공부하시려면 반드시 봐야할 책)
+- html & css - head first 시리즈 
+- javascript -  다이나믹 웹 표준 사이트를 위한 DOM 스크립트, 자바스크립트 완벽가이드(기초서적은 아닙니다만 하지만 이책은 정말 강추입니다) 
+- 제이쿼리 - 제이쿼리 in action
+- java - head first 시리즈, 뇌를자극하는 java
+- jsp & servlet - head first 시리즈
+- sql - 하루 10분씩 핵심만 골라 마스터하는 sql 핸드북, head first 시리즈
+- oracle - 뇌를자극하는 오라클
+- php & mysql - 성공적인 웹 프로그래밍 php와 mysql
+- spring - 토비의 스프링3.0 (기초서적은 아닙니다만 spring 프레임웤을 공부하시려면 반드시 봐야할 책)
 
 <프론트엔드>
 90's DBA, 시스템관리자, 백엔드, devOps(프로젝트 관리?), sw엔지니어, ux엔지니어, 프론트엔드 엔지니어

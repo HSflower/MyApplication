@@ -35,8 +35,10 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 * 웹 개발자를 위한 권장언어: python, javascript, java, bash, C, scala
 내 전문분야에 대한 방향성을 일단 결정하자: 웹 개발자라 하더라도 전문 분야는 앞서 본 것처럼 백엔드 개발자와 프론트엔드 개발자로 나뉘게 됩니다.  사물의 내면이나 돌아가는 원리를 생각해 보는 걸 좋아한다면 백엔드, 디자인 감각이 있고, 꾸미는 걸 좋아하고 반복작업도 질리지 않고 잘 할 수 있다면 프론트 쪽일 가능성이 높습니다. 프론트엔드 분야는 jquery,  v8의 등장과 더불어 비교적 최근에 고도화가 되었습니다. 앞으로 더 많은 수요가 필요할 것으로 생각됩니다.
 처음에는 프론트와 백엔드 모두를 배워야 한다: 백엔드 개발자는 자바, 프론트 엔드 개발자는 javascript + html + css 가 핵심 역량이 됩니다. 그러나 처음에는 둘 모두 알아야 합니다. 꼭 두 분야의 기초 정도는 함께 공부하기를 권합니다.
+
+반복이 매우 중요하기 때문에 아는 거 또 나왔네? 라고 넘어가지 말고 반복해서 학습을 하길 권합니다. 
 1. 웹전체이해 : 백언어+프론트언어+db+서버(윈,리눅스)+보안
--http://xguru.net/1897 주변기능실습
+ -http://xguru.net/1897 주변기능실습
  - 윈도우서버:IIS+SMTP, ASP,PHP
  - DB: 리눅스,PHP,MySQL,
 	윈도우,ASP,MS-SQL
@@ -47,11 +49,12 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 3. 핵심언어공부(js-java,php,ruby,node,py)
 4. 전체언어공부(HTML,CSS,js-servlet,MVC,DB,API)
 5. 관계이해(ajax,HTTP)
-반복이 매우 중요하기 때문에 아는 거 또 나왔네? 라고 넘어가지 말고 반복해서 학습을 하길 권합니다. 
 
-2. 제일 먼저 해볼만한 것: 1시간 정도 투자해서 code.org 의 hour of code로 놀아 봅시다. 중요한 기초 개념인 순차 + 반복 + 조건문의 개념을 배우시기 바랍니다.
+2. 제일 먼저 해볼만한 것: 
+
+(1) 1시간 정도 투자해서 code.org 의 hour of code로 놀아 봅시다. 중요한 기초 개념인 순차 + 반복 + 조건문의 개념을 배우시기 바랍니다.
 <http://code.org/learn>
-- 칸 아카데미의 컴퓨터 교육: 자바스크립트의 감을 잡게 해 줍니다. 
+(2) 칸 아카데미의 컴퓨터 교육: 자바스크립트의 감을 잡게 해 줍니다. 
 <https://www.khanacademy.org/computing/computer-programming>
 (옵션): 파이썬 공부하기: 파이썬은 재밌는 언어입니다. 한번쯤 취미로 배워볼만 하지요.
 왕초보 파이썬: https://wikidocs.net/book/2 
@@ -59,6 +62,7 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 THINK PYTHON: http://www.flowdas.com/thinkpython/ 
 
 3. 조금 더 깊게
+
 (0) 협업하는 방법: 개발자에게 가장 중요한 자질 0번은 협업하는 자세입니다. 
  에자일 방법론과 스크럼(도구 : trello)에 대한 좋은 책들을 한 번 읽어 보시기 바랍니다. 
 (1) 유닉스 콘솔 명령어 (bash) 배우기
@@ -117,8 +121,9 @@ virtual machine의 동작 원리, 가비지 콜렉션의 원리, bytecode의 이
 
 > Mooc 사이트
 (추가)
-codeacademy.com
-developer.mozilla.org
+
+<codeacademy.com>
+<developer.mozilla.org>
 * 웹서비스전체도 좋지만 기능하나부터 front-server모두 구현
 * 배우는 것과 실천같이
 * 디버깅 잘 배우기

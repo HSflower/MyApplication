@@ -42,12 +42,13 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 	JSP는 무관
  - 보안: top10은 처리해야함
  - 대용량설계도 공부
+ 
 1.2. 분야선택(front-back
 1.3. 핵심언어공부(js-java,php,ruby,node,py)
 1.4. 전체언어공부(HTML,CSS,js-servlet,MVC,DB,API)
 1.5. 관계이해(ajax,HTTP)
 
-2. 제일 먼저 해볼만한 것: 
+#2 제일 먼저 해볼만한 것: 
 
 (1) 1시간 정도 투자해서 code.org 의 hour of code로 놀아 봅시다. 중요한 기초 개념인 순차 + 반복 + 조건문의 개념을 배우시기 바랍니다.
 <http://code.org/learn>
@@ -58,7 +59,7 @@ Haskell, LISP, J, Forth or Factor, OZ, Io, Erlang 등 (마스터할 필요는 �
 파이썬 포 키드: http://nostarch.com/download/PythonForKidsSolutions.pdf 
 THINK PYTHON: http://www.flowdas.com/thinkpython/ 
 
-3. 조금 더 깊게
+#3 조금 더 깊게
 
 (0) 협업하는 방법: 개발자에게 가장 중요한 자질 0번은 협업하는 자세입니다. 
  에자일 방법론과 스크럼(도구 : trello)에 대한 좋은 책들을 한 번 읽어 보시기 바랍니다. 
@@ -91,7 +92,7 @@ merge 를 해결하는 방법: 3-way merge
 
 (9) REST API: 웹 페이지와 웹 서비스와의 차이점, REST API란? 
 
-4. 웹 개발자 초보 탈출! 하고 나서 여러분들에게 도움이 될 만한 것들은
+#4 웹 개발자 초보 탈출! 하고 나서 여러분들에게 도움이 될 만한 것들은
 
 - 디자인 패턴 (head first desgin pattern이 좋다고 합니다.)
 - effective Java 읽어 보기
@@ -113,7 +114,7 @@ merge 를 해결하는 방법: 3-way merge
 3. 함수 또는 Class를 분류하고(추가 수정 삭제 포함)
 4. 코딩(수정)
 
-5. 추가 공부
+#5 추가 공부
 
 서버 개발자들은 C#을 공부해 봅시다. 여러분이 사용하는 언어가 java라는게 엄청 아쉬워 질지도 모릅니다.
 “Do you know why java devepers wear glasses? Because they can’t see #.”
